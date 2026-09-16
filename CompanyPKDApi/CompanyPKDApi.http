@@ -1,0 +1,6 @@
+@CompanyPKDApi_HostAddress = http://localhost:5299
+
+GET {{CompanyPKDApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

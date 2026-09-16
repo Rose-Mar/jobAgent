@@ -483,5 +483,23 @@ $RECYCLE.BIN/
 
 
 
-# Ustawienia lokalne z kluczami API
 appsettings.Development.json
+
+# Ignoruj folder, którego nie chcesz w repozytorium
+JobAgent.Api/
+
+# Pliki binarne i kompilacji .NET
+bin/
+obj/
+
+# Pliki ze zmiennymi i kluczami
+.env
+.env.*
+
+# Pliki danych i bazy CSV
+*.csv
+
+# Ustawienia lokalne edytorów
+.vs/
+.vscode/
+*.user
